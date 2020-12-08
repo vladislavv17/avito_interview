@@ -103,6 +103,6 @@ async def top5_state(req: Models.TopRequestModel):
 def remove_expired_tokens_task():
     asyncio.run(async_refresh(database=db))
 
-# ------------------------------------
+# -----------------------------------
 # Run FastAPI app: $ uvicorn main:app
-# ------------------------------------
+# -----------------------------------
